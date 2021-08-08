@@ -24,5 +24,25 @@ namespace CriticsClub
         {
             InitializeComponent();
         }
+
+        private void ListBoxItem_Selected(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(sender.ToString());
+        }
+
+        private void ListBoxItem_Selected_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Page1();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Page2();
+        }
     }
 }

@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticsClub", "CriticsClub.csproj", "{3FE33B3E-3F06-4542-98E7-5D48F5B63DD6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3C9F2E74-B57C-4628-ADAA-ADB83A2B5597} = {3C9F2E74-B57C-4628-ADAA-ADB83A2B5597}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticsClubServices", "..\CriticsClubServices\CriticsClubServices.csproj", "{3C9F2E74-B57C-4628-ADAA-ADB83A2B5597}"
 EndProject
