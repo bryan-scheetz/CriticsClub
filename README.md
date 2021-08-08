@@ -12,3 +12,5 @@ Acceptance Criteria
 1. User shall be able to create meetings for club
 2. User shall be able to search for books.
 3. User shall be able to add book to meeting.
+
+See CriticsClubDB.bk for test database used.
