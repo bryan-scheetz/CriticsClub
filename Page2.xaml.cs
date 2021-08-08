@@ -23,6 +23,7 @@ namespace CriticsClub
         public Page2()
         {
             InitializeComponent();
+
         }
     }
 }

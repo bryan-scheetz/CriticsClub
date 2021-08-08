@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -12,6 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
+using System.Web;
 
 namespace CriticsClub
 {
@@ -25,8 +28,9 @@ namespace CriticsClub
             InitializeComponent();
 
             ServiceReference1.Service1Client data = new ServiceReference1.Service1Client();
-            ViewAllClubs.ItemsSource = data.GetAllBooks();
 
+            ViewAllClubs.ItemsSource = data.GetAllClubs();
+           
         }
     }
 }

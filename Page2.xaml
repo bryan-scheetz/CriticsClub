@@ -6,9 +6,10 @@
       xmlns:local="clr-namespace:CriticsClub"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Page2">
+      Title="Page2" Background="#FFF9F2F2">
 
     <Grid>
-        <TextBlock Text="Page2" Background="#FFF9F2F2"></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="52,42,0,0" TextWrapping="Wrap" Text="Create a Group" VerticalAlignment="Top" RenderTransformOrigin="1.347,-11.062"/>
+
     </Grid>
 </Page>
